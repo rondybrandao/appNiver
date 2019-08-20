@@ -1,4 +1,67 @@
-.welcome-card ion-img {
-  max-height: 35vh;
-  overflow: hidden;
+.card-background-page {
+
+  --background: url('../../assets/img/home/fundodomar.jpg') no-repeat center center / cover;
+
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .perfil {
+    margin-bottom: 16px
+  }
+  .aniversario-bastidores {
+    margin-left: -4px;
+    margin-top: -23px;
+    margin-bottom: -17px
+  }
+
+  .card-amiguinho {
+    margin-top: -2px;
+  }
+  .card-title {
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .card-subtitle {
+    font-size: 1.0em;
+    position: absolute;
+    top: 67%;
+    width: 100%;
+    color: #fff;
+  }
+
+  .card-subtitle-perfil {
+    font-size: 1.0em;
+    position: absolute;
+    top: 52%;
+    width: 100%;
+    color: #fff;
+  }
+
+  .card-img {
+    height: 100px;
+  }
+
+
+  .staff-confirmacao {
+    margin-left: -4px;
+    margin-top: -17px;
+  }
+
+  .col-staff {
+    margin-right: -22px;
+    margin-left: -1px;
+  }
+
+  .col-confirmacao {
+    margin-right: -5px;
+  }
+
 }

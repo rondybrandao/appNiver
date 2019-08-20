@@ -1,6 +1,8 @@
 {
   "name": "appNiver",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "f3c95725"
 }
